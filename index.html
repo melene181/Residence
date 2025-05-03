@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arc en Ciel - Hôtel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue à l'hôtel Arc en Ciel</h1>
+        <p>Situé à Dieppe, Normandie</p>
+        <nav>
+            <a href="#chambres">Chambres</a> |
+            <a href="#services">Services</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="chambres">
+        <h2>Nos chambres</h2>
+        <ul>
+            <li>Chambre simple - 105€</li>
+            <li>Chambre double - 170€</li>
+            <li>Suite - 210€</li>
+        </ul>
+        <div class="chambre-imgs">
+            <img src="images/chambre_simple.jpg" alt="Chambre simple">
+            <img src="images/chambre_double.jpg" alt="Chambre double">
+            <img src="images/suite.jpg" alt="Suite">
+        </div>
+    </section>
+    <section id="services">
+        <h2>Services</h2>
+        <p>Hébergement et restauration dans un cadre élégant avec vue sur mer.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : <a href="mailto:melenemoline@gmail.com">melenemoline@gmail.com</a></p>
+        <form action="mailto:melenemoline@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="Nom" placeholder="Votre nom" required><br>
+            <input type="email" name="Email" placeholder="Votre email" required><br>
+            <textarea name="Message" placeholder="Votre message"></textarea><br>
+            <input type="submit" value="Réserver">
+        </form>
+    </section>
+    <footer>
+        <p>© 2025 Hôtel Arc en Ciel - Dieppe, Normandie</p>
+    </footer>
+</body>
+</html>
